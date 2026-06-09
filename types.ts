@@ -23,3 +23,17 @@ console.log(data);
 console.log(value);
 
 
+//method2: without type (typescript guess it)
+let isActive = true;
+let finalName = 'Abdul Jabir Khan'
+
+// finalName = 23; if we assign number it will get error because
+// it's defined the already string.
+
+
+//this guessing is called type interface.
+//Important Rule:-
+//once you give a type to a variable, you can not change it 
+//another type.
+
+
