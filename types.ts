@@ -36,4 +36,8 @@ let finalName = 'Abdul Jabir Khan'
 //once you give a type to a variable, you can not change it 
 //another type.
 
+// What is Type Inference?
+// Type Inference means TypeScript can automatically guess the type of a variable based on the 
+// value you give it.
+
 
