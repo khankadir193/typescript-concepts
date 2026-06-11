@@ -19,7 +19,7 @@ numbers.push(1000);
 cities.push('delhi');
 passed.push(false);
 
-console.log(names);
+console.log(names[4]); // get the names corresponding index.
 console.log(numbers);
 console.log(cities);
 console.log(passed);
