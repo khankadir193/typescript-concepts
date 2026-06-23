@@ -13,7 +13,7 @@ let statuses: "success" | "error" | "loading";  // Literal Union (very common)
 let datas:(string | number) [] = ['kadir',34,'jabir',20];
 console.log(datas)
 
-function getId(id: 'string' | number){
+function getId(id: string | number){
     console.log('---',id);
 };
 getId("kadir");
