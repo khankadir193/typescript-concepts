@@ -3,14 +3,14 @@
 //each position can have the different type.
 // Important: Tuples have fixed length and fixed type order.
 
-let person:[string,number,boolean] = ['Kadir',29,true];
-let student:[string,number] = ['Abdullah',12];
-type Point = [number,number];
-let coordinate:Point = [10,20];
+let person1:[string,number,boolean] = ['Kadir',29,true];
+let student2:[string,number] = ['Abdullah',12];
+type Point2 = [number,number];
+let coordinate:Point2 = [10,20];
 
-student.push('extra'); //it can give the error on strict mode.
-console.log(person);
-console.log(student);
+student2.push('extra'); //it can give the error on strict mode.
+console.log(person1);
+console.log(student2);
 console.log(coordinate);
 
 
