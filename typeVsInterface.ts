@@ -14,14 +14,14 @@ interface User {
     age:number
 }
 
-const user:User={
+const userX:User={
     name:"Abdul Kadir Khan",
     age:29,
     roll:490,
     address:"lucknow"
 }
 
-console.log("before combine object:-",user,user.name,user.age);
+console.log("before combine object:-",userX,userX.name,userX.age);
 //you define the same interface multiple times
 //typescript automatically combines them.
 interface User {
@@ -59,12 +59,12 @@ const emp:Employee={
 console.log('extending the object',emp,emp.name,emp.empCompany);
 
 //type example:-
-type Users = {
+type UsersType = {
     name:string,
     age:number
 }
 
-const users:Users={
+const users:UsersType={
     name:"Rehan khan",
     age:12
 }

@@ -26,7 +26,7 @@ interface NObj {
     address:string
 }
 
-const nObj:NObj = {
+const nObj:Required<NObj> = {
     name:"Abdul Kadir Khan",
     houseNumber:23,
     address:"Pandri,siddharthnagar"
