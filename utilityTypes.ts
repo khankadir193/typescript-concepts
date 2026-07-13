@@ -90,4 +90,20 @@ const studentScores:Scores = {
 }
 console.log('Record ->',studentScores);
 
+//Exclude<T,U> => Remove types.It removes from T all types that are assignable to U.
+type status = "success" | "error" | "loading";
+type ValidStatus = Exclude<status,"success">;
+const status1:ValidStatus = "error";
+const status2:ValidStatus = "loading";
+console.log('Exclude types:-',status1,status2)
+
+//Extract<T, U> — Extract specific types.opposite Exclude.keeps only matching types.
+
+type color = "blue" | "red" | "purple" | "green" | "white";
+type validColor = Extract<color,"red" | "green" | "white">
+const color1:validColor = "green";
+const color2:validColor = "white";
+const color3:validColor = "red";
+
+console.log("Extract types:-",color1,color2,color3);
 
