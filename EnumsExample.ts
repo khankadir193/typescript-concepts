@@ -40,7 +40,7 @@ const checkPermission = (role:UserRole):void=>{
     if(role === UserRole.Admin){
         console.log('Full Access...');
     }else{
-        
+        console.log('Partially Access...');
     }
 }
 

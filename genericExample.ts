@@ -52,15 +52,15 @@ class Container<T> {
 
 const container1 = new Container("Abdul Kadir Khan");
 const container2 = new Container(34342);
-console.log('generic class string:-',container1.getData());
-console.log('generic class number:-',container2.getData());
+console.log('generic class string:-', container1.getData());
+console.log('generic class number:-', container2.getData());
 
 
 //generic constraints (extends)
 //only allow types that have .length property.
-function logLength <T extends {length:number} >(item : T){
-    console.log('generic constraints:-',item);
+function logLength<T extends { length: number }>(item: T) {
+    console.log('generic constraints:-', item);
 }
 
-logLength([10,20,30,40]);
+logLength([10, 20, 30, 40]);
 logLength("Hello constraints");
